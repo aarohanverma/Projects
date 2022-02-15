@@ -3,4 +3,4 @@
 
 # Web App: http://mv-rcmd-sys-av.herokuapp.com/
 
-### Locally: streamlit run app.py
+### For Local Runtime: streamlit run app.py
