@@ -2,3 +2,5 @@
 ### Alternatively, it can also be generated from the notebook
 
 # Web App: http://mv-rcmd-sys-av.herokuapp.com/
+
+### Locally: streamlit run app.py
