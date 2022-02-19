@@ -1,4 +1,5 @@
 # Web App: https://wca-av.herokuapp.com/
+P.S.: The Web App may take a little while to load. Use Dark Mode for best experience.
 
 ### For Local Runtime: streamlit run app.py
 
