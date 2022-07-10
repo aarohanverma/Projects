@@ -25,9 +25,6 @@ def contact(request):
             messages.success(request, 'Your message has been successfult sent!')
     return render(request, 'home/contact.html')
 
-def about(request):
-    return render(request, 'home/about.html')
-
 def search(request):
     query=request.GET['query']
     allPosts=Post.objects.filter(title__icontains=query)
