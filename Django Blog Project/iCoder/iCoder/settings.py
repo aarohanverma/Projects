@@ -28,7 +28,7 @@ SECRET_KEY = 'by766+g+(7&t@bqs3+jxo+q0^9-imerlh9#bj2vul6!t3s0&(m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'av-icoder.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'av-icoder.herokuapp.com','localhost']
 
 
 # Application definition
