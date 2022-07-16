@@ -10,7 +10,7 @@
 
 Screenshot:
 
-[!alt text](https://github.com/aarohanverma/Projects/blob/main/iCoderBlog/blogss.png?raw=true)
+![blogss](https://user-images.githubusercontent.com/97247457/179349696-98600975-38fa-4f76-b6b7-7bdd447a3f93.png)
 
 
 
