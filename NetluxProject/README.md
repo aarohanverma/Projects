@@ -1,6 +1,6 @@
 # This Script was developed as a screening task for Internship at Netlux Systems Private Limited
 
-## The problem statement was that the company would receive emails for orders, and a dedicated employee would have to continuously keep on checking for emails for the same, maintain a spreadsheet for for customer information and SMS/Whatsapp the Product Key to the customers with confirmed order.
+## The problem statement was that the company would receive emails for orders, and a dedicated employee would have to continuously keep on checking for emails for the same, maintain a spreadsheet for the customer information and SMS/Whatsapp the Product Key to the customers with confirmed order.
 
 ### Variables:
 https://www.geeksforgeeks.org/fetch-unseen-emails-from-gmail-inbox/       //Set the generated 'password' for your account in the script under necessary credentials
