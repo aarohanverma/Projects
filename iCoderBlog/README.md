@@ -8,6 +8,8 @@
 #### username:asus <br/>
 #### password:12345 
 
+#### This project  can be used a basic customizable template to implement a forum/blog
+
 Screenshot:
 
 ![blogss](https://user-images.githubusercontent.com/97247457/179349696-98600975-38fa-4f76-b6b7-7bdd447a3f93.png)
