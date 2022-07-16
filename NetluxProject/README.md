@@ -4,13 +4,13 @@
 
 ### Variables:
 
-#### Set the generated 'password' for your account in the script under necessary credentials:
+#### Set the generated 'password' for your account in the script under necessary credentials: (Refer to link below to generate it)
 https://www.geeksforgeeks.org/fetch-unseen-emails-from-gmail-inbox/   
 
 #### Change the email to set the sender:
 msgs = get_emails(search('FROM', 'verma.aarohan@gmail.com', con),con)     
 
-#### Set your corresponding json file for ServiceAccountCredentials.from_json_keyfile_name('...',scope):
+#### Set your corresponding json file for ServiceAccountCredentials.from_json_keyfile_name('...',scope): (Refer to link below to generate it)
 https://www.geeksforgeeks.org/using-google-sheets-as-database-in-python/  
 
 #### Set your sheet name:
