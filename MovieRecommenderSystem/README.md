@@ -38,51 +38,51 @@ This approach helps users discover movies that align with their interests by uti
 
    - **Open your terminal and run the following commands:**
 
-        ```
-        git clone --no-checkout https://github.com/aarohanverma/Projects.git
-        cd Projects
-        git sparse-checkout init --cone
-        git sparse-checkout set MovieRecommenderSystem
-        git checkout
-        ```
+      ```
+      git clone --no-checkout https://github.com/aarohanverma/Projects.git
+      cd Projects
+      git sparse-checkout init --cone
+      git sparse-checkout set MovieRecommenderSystem
+      git checkout
+      ```
 
 2. **Create a Virtual Environment**
 
    - **For Unix or macOS:**
-        ```
-        python3 -m venv venv
-        source venv/bin/activate
-        ``` 
+      ```
+      python -m venv venv
+      source venv/bin/activate
+      ``` 
    - **For Windows:**
-        ```
-        python -m venv venv
-        venv\Scripts\activate
-        ```
+      ```
+      python -m venv venv
+      venv\Scripts\activate
+      ```
 
 3. **Install Dependencies**
 
-    Ensure you have a `requirements.txt` file in your repository with the following content:
-        ```
-        streamlit
-        pandas
-        requests
-        ```
-    Then install the dependencies by running:
-        ```
-        pip install -r requirements.txt
-        ```
+   - **Ensure you have a `requirements.txt` file in your repository with the following content:**
+      ```
+      streamlit
+      pandas
+      requests
+      ```
+   - **Then install the dependencies by running:**
+      ```
+      pip install -r requirements.txt
+      ```
 
 4. **Ensure Required Files:**
     - **similarity.pkl:**  
-        Generate it using the accompanying notebook.
+      Generate it using the accompanying notebook.
     - **movies.pkl:**  
-        Ensure this pickled movie dataset is present in the project directory.
+      Ensure this pickled movie dataset is present in the project directory.
 
 5. **Run the Application:**
-   Launch the Streamlit app by executing:
-        ```
-        streamlit run app.py
-        ```
+   - **Launch the Streamlit app by executing:**
+      ```
+      streamlit run app.py
+      ```
 
    Open your browser and navigate to [http://localhost:8501](http://localhost:8501) to view the application.
 
@@ -90,9 +90,9 @@ This approach helps users discover movies that align with their interests by uti
 
 1. **Ensure Required Files:**
     - **similarity.pkl:**  
-        Generate it using the accompanying notebook.
+      Generate it using the accompanying notebook.
     - **movies.pkl:**  
-        Ensure this pickled movie dataset is present in the project directory.
+      Ensure this pickled movie dataset is present in the project directory.
 
 2. **Build the Docker Image**
 
