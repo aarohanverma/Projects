@@ -64,7 +64,7 @@ This approach helps users quickly identify and localize animals in images throug
 
    - **For Unix or macOS:**
       ```
-      python3 -m venv venv
+      python -m venv venv
       source venv/bin/activate
       ``` 
    - **For Windows:**
@@ -90,7 +90,7 @@ This approach helps users quickly identify and localize animals in images throug
 
 4. **Generate the Model**
 
-   To generate `my_model.h5` refer to the accompanying notebook or the instructions in the [IBM_ML_DL_Assignment.pdf](IBM_ML_DL_Assignment.pdf).
+   To generate `my_model.h5` refer to the instructions in the [IBM_ML_DL_Assignment.pdf](IBM_ML_DL_Assignment.pdf).
 
 5. **Run the Application**
 
