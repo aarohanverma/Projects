@@ -1,30 +1,3 @@
----
-license: apache-2.0
-datasets:
-- Clinton/Text-to-sql-v1
-- b-mc2/sql-create-context
-- gretelai/synthetic_text_to_sql
-- knowrohit07/know_sql
-metrics:
-- rouge
-- bleu
-- fuzzy_match
-- exact_match
-base_model:
-- google/flan-t5-base
-pipeline_tag: text2text-generation
-library_name: transformers
-language:
-- en
-tags:
-- text2sql
-- transformers
-- flan-t5
-- seq2seq
-- qlora
-- peft
-- fine-tuning
----
 # Model Card
 
 <!-- Provide a quick summary of what the model is/does. -->
@@ -277,23 +250,6 @@ print("\nResponse:")
 print(generated_sql)
 
 # EXPECTED RESPONSE: SELECT name FROM students WHERE age = 15; 
-```
-
-## Citation 
-
-<!-- If there is a paper or blog post introducing the model, the APA and Bibtex information for that should go in this section. -->
-
-**BibTeX:**
-
-```bibtex
-@misc {aarohan_verma_2025,
-	author       = { {Aarohan Verma} },
-	title        = { text2sql-flan-t5-base-qlora-finetuned },
-	year         = 2025,
-	url          = { https://huggingface.co/aarohanverma/text2sql-flan-t5-base-qlora-finetuned },
-	doi          = { 10.57967/hf/4887 },
-	publisher    = { Hugging Face }
-}
 ```
 
 ## Model Card Contact
