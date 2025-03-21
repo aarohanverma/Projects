@@ -15,7 +15,7 @@
 
 To run the project locally, execute the following command in your terminal:
 
-```bash
+```
 python manage.py runserver
 ```
 

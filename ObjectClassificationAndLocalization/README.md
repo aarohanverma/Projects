@@ -52,7 +52,7 @@ This approach helps users quickly identify and localize animals in images throug
 1. **Clone the Project**
 
     Open your terminal and run the following commands:
-    ```bash
+    ```
     git clone --no-checkout https://github.com/aarohanverma/Projects.git
     cd Projects
     git sparse-checkout init --cone
@@ -63,12 +63,12 @@ This approach helps users quickly identify and localize animals in images throug
 2. **Create a Virtual Environment**
 
    - **For Unix or macOS:**
-      ```bash
+      ```
       python3 -m venv venv
       source venv/bin/activate
       ``` 
    - **For Windows:**
-      ```bash
+      ```
       python -m venv venv
       venv\Scripts\activate
       ```
@@ -84,7 +84,7 @@ This approach helps users quickly identify and localize animals in images throug
       keras
       ```
    Then install the dependencies by running:
-      ```bash
+      ```
       pip install -r requirements.txt
       ```
 
@@ -95,7 +95,7 @@ This approach helps users quickly identify and localize animals in images throug
 5. **Run the Application**
 
    Launch the Streamlit app by executing:
-      ```bash
+      ```
       streamlit run app.py
       ```
    Open your browser and navigate to [http://localhost:8501](http://localhost:8501) to view the application.
@@ -109,14 +109,14 @@ This approach helps users quickly identify and localize animals in images throug
 2. **Build the Docker Image**
 
    Make sure you have Docker installed. Open your terminal and run:
-      ```bash
+      ```
       docker build -t classification-localization-app .
       ```
 
 3. **Run the Docker Container**
 
    Once the image is built, start the container by running:
-      ```bash
+      ```
       docker run -p 8501:8501 classification-localization-app
       ```
       

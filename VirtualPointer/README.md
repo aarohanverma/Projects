@@ -37,7 +37,7 @@ The Gesture-Controlled Mouse app captures video from a webcam and uses Mediapipe
 1. **Clone the Project**
 
     Open your terminal and run the following commands:
-    ```bash
+    ```
     git clone --no-checkout https://github.com/aarohanverma/Projects.git
     cd Projects
     git sparse-checkout init --cone
@@ -48,12 +48,12 @@ The Gesture-Controlled Mouse app captures video from a webcam and uses Mediapipe
 2. **Create a Virtual Environment**
 
    - **For Unix or macOS:**
-      ```bash
+      ```
       python3 -m venv venv
       source venv/bin/activate
       ``` 
    - **For Windows:**
-      ```bash
+      ```
       python -m venv venv
       venv\Scripts\activate
       ```
@@ -68,14 +68,14 @@ The Gesture-Controlled Mouse app captures video from a webcam and uses Mediapipe
       numpy
       ```
    Then install the dependencies by running:
-      ```bash
+      ```
       pip install -r requirements.txt
       ```
       
 4. **Run the Application**
 
    Launch the application by executing:
-      ```bash
+      ```
       python main.py
       ```
    The application will access your webcam, process the video feed in real time, and perform mouse actions based on your gestures. To exit the application, press 'q' in the video window.

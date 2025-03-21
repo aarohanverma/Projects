@@ -37,7 +37,7 @@ This approach helps users discover movies that align with their interests by uti
 1. **Clone the Project**
 
     Open your terminal and run the following commands:
-        ```bash
+        ```
         git clone --no-checkout https://github.com/aarohanverma/Projects.git
         cd Projects
         git sparse-checkout init --cone
@@ -48,12 +48,12 @@ This approach helps users discover movies that align with their interests by uti
 2. **Create a Virtual Environment**
 
    - **For Unix or macOS:**
-        ```bash
+        ```
         python3 -m venv venv
         source venv/bin/activate
         ``` 
    - **For Windows:**
-        ```bash
+        ```
         python -m venv venv
         venv\Scripts\activate
         ```
@@ -67,7 +67,7 @@ This approach helps users discover movies that align with their interests by uti
         requests
         ```
     Then install the dependencies by running:
-        ```bash
+        ```
         pip install -r requirements.txt
         ```
 
@@ -79,7 +79,7 @@ This approach helps users discover movies that align with their interests by uti
 
 5. **Run the Application:**
    Launch the Streamlit app by executing:
-        ```bash
+        ```
         streamlit run app.py
         ```
 

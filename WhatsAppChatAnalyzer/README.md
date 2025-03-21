@@ -38,7 +38,7 @@ This analysis helps in understanding the chat dynamics, most active periods, and
 1. **Clone the Project**
 
     Open your terminal and run the following commands:
-    ```bash
+    ```
     git clone --no-checkout https://github.com/aarohanverma/Projects.git
     cd Projects
     git sparse-checkout init --cone
@@ -49,12 +49,12 @@ This analysis helps in understanding the chat dynamics, most active periods, and
 2. **Create a Virtual Environment**
 
    - **For Unix or macOS:**
-      ```bash
+      ```
       python3 -m venv venv
       source venv/bin/activate
       ``` 
    - **For Windows:**
-      ```bash
+      ```
       python -m venv venv
       venv\Scripts\activate
       ```
@@ -73,14 +73,14 @@ This analysis helps in understanding the chat dynamics, most active periods, and
       emoji
       ```
    Then install the dependencies by running:
-      ```bash
+      ```
       pip install -r requirements.txt
       ```
 
 4. **Run the Application**
 
    Launch the Streamlit app by executing:
-      ```bash
+      ```
       streamlit run app.py
       ```
 
@@ -91,14 +91,14 @@ This analysis helps in understanding the chat dynamics, most active periods, and
 1. **Build the Docker Image**
 
    Make sure you have Docker installed. Open your terminal and run:
-      ```bash
+      ```
       docker build -t whatsapp-chat-analyzer .
       ```
 
 2. **Run the Docker Container**
 
    Once the image is built, start the container by running:
-      ```bash
+      ```
       docker run -p 8501:8501 whatsapp-chat-analyzer
       ```
 
