@@ -146,22 +146,6 @@ To run the model, follow these steps:
 - **Architecture:** LSTM-based network with enhancements such as an extra fully connected layer, dropout, and layer normalization.
 - **Objective:** Predict the next word/subword given a sequence of tokens.
 
-## Citation
-
-<!-- If there is a paper or blog post introducing the model, the APA and Bibtex information for that should go in this section. -->
-
-**BibTeX:**
-
-```bibtex
-@misc {aarohan_verma_2025,
-	author       = { {Aarohan Verma} },
-	title        = { lstm-next-word-predictor },
-	year         = 2025,
-	url          = { https://huggingface.co/aarohanverma/lstm-next-word-predictor },
-	doi          = { 10.57967/hf/4882 },
-	publisher    = { Hugging Face }
-}
-```
 
 ## Model Card Contact
 
