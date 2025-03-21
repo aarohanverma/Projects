@@ -36,7 +36,8 @@ This approach helps users discover movies that align with their interests by uti
 
 1. **Clone the Project**
 
-    Open your terminal and run the following commands:
+   - **Open your terminal and run the following commands:**
+
         ```
         git clone --no-checkout https://github.com/aarohanverma/Projects.git
         cd Projects

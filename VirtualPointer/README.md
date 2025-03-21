@@ -36,14 +36,14 @@ The Gesture-Controlled Mouse app captures video from a webcam and uses Mediapipe
 
 1. **Clone the Project**
 
-    Open your terminal and run the following commands:
-    ```
-    git clone --no-checkout https://github.com/aarohanverma/Projects.git
-    cd Projects
-    git sparse-checkout init --cone
-    git sparse-checkout set VirtualPointer
-    git checkout
-    ```
+   - **Open your terminal and run the following commands:**
+      ```
+      git clone --no-checkout https://github.com/aarohanverma/Projects.git
+      cd Projects
+      git sparse-checkout init --cone
+      git sparse-checkout set VirtualPointer
+      git checkout
+      ```
 
 2. **Create a Virtual Environment**
 

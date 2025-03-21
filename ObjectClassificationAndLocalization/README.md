@@ -51,14 +51,14 @@ This approach helps users quickly identify and localize animals in images throug
 
 1. **Clone the Project**
 
-    Open your terminal and run the following commands:
-    ```
-    git clone --no-checkout https://github.com/aarohanverma/Projects.git
-    cd Projects
-    git sparse-checkout init --cone
-    git sparse-checkout set ObjectClassificationAndLocalization
-    git checkout
-    ```
+   - **Open your terminal and run the following commands:**
+      ```
+      git clone --no-checkout https://github.com/aarohanverma/Projects.git
+      cd Projects
+      git sparse-checkout init --cone
+      git sparse-checkout set ObjectClassificationAndLocalization
+      git checkout
+      ```
 
 2. **Create a Virtual Environment**
 
