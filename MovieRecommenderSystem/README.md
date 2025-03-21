@@ -72,11 +72,11 @@ This approach helps users discover movies that align with their interests by uti
         pip install -r requirements.txt
         ```
 
-4. **Download Required Files:**
+4. **Ensure Required Files:**
     - **similarity.pkl:**  
         Generate it using the accompanying notebook.
     - **movies.pkl:**  
-        Ensure this pickled movie dataset is present in the project directory. (CSV files such as `tmdb_5000_movies.csv` and `tmdb_5000_credits.csv` may be used to generate it.)
+        Ensure this pickled movie dataset is present in the project directory.
 
 5. **Run the Application:**
    Launch the Streamlit app by executing:
@@ -85,6 +85,33 @@ This approach helps users discover movies that align with their interests by uti
         ```
 
    Open your browser and navigate to [http://localhost:8501](http://localhost:8501) to view the application.
+
+## Docker Setup
+
+1. **Ensure Required Files:**
+    - **similarity.pkl:**  
+        Generate it using the accompanying notebook.
+    - **movies.pkl:**  
+        Ensure this pickled movie dataset is present in the project directory.
+
+2. **Build the Docker Image**
+
+   - **Make sure you have Docker installed. Open your terminal and run:**
+      ```
+      docker build -t movie-recommender .
+      ```
+
+3. **Run the Docker Container**
+
+   - **Once the image is built, start the container by running:**
+      ```
+      docker run -p 8501:8501 movie-recommender
+      ```
+
+4. **Access the Application**
+
+   Open your browser and navigate to [http://localhost:8501](http://localhost:8501) to interact with the Movie Recommender System.
+
 
 ## License
 

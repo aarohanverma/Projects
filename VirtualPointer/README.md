@@ -49,7 +49,7 @@ The Gesture-Controlled Mouse app captures video from a webcam and uses Mediapipe
 
    - **For Unix or macOS:**
       ```
-      python3 -m venv venv
+      python -m venv venv
       source venv/bin/activate
       ``` 
    - **For Windows:**
@@ -60,21 +60,21 @@ The Gesture-Controlled Mouse app captures video from a webcam and uses Mediapipe
 
 3. **Install Dependencies**
 
-   Ensure you have a `requirements.txt` file in your repository with the following content:
+   - **Ensure you have a `requirements.txt` file in your repository with the following content:**
       ```
       opencv-python
       mediapipe
       mouse
       numpy
       ```
-   Then install the dependencies by running:
+   - **Then install the dependencies by running:**
       ```
       pip install -r requirements.txt
       ```
       
 4. **Run the Application**
 
-   Launch the application by executing:
+   - **Launch the application by executing:**
       ```
       python main.py
       ```

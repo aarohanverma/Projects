@@ -75,7 +75,7 @@ This approach helps users quickly identify and localize animals in images throug
 
 3. **Install Dependencies**
 
-   Ensure you have a `requirements.txt` file in your repository with the following content:
+   - **Ensure you have a `requirements.txt` file in your repository with the following content:**
       ```
       streamlit
       tensorflow
@@ -83,7 +83,7 @@ This approach helps users quickly identify and localize animals in images throug
       Pillow
       keras
       ```
-   Then install the dependencies by running:
+   - **Then install the dependencies by running:**
       ```
       pip install -r requirements.txt
       ```
@@ -94,7 +94,7 @@ This approach helps users quickly identify and localize animals in images throug
 
 5. **Run the Application**
 
-   Launch the Streamlit app by executing:
+   - **Launch the Streamlit app by executing:**
       ```
       streamlit run app.py
       ```
@@ -104,18 +104,18 @@ This approach helps users quickly identify and localize animals in images throug
 
 1. **Generate the Model**
 
-   To generate `my_model.h5` refer to the accompanying notebook or the instructions in the [IBM_ML_DL_Assignment.pdf](IBM_ML_DL_Assignment.pdf).
+   To generate `my_model.h5` refer to the instructions in the [IBM_ML_DL_Assignment.pdf](IBM_ML_DL_Assignment.pdf).
 
 2. **Build the Docker Image**
 
-   Make sure you have Docker installed. Open your terminal and run:
+   - **Make sure you have Docker installed. Open your terminal and run:**
       ```
       docker build -t classification-localization-app .
       ```
 
 3. **Run the Docker Container**
 
-   Once the image is built, start the container by running:
+   - **Once the image is built, start the container by running:**
       ```
       docker run -p 8501:8501 classification-localization-app
       ```

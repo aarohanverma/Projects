@@ -50,7 +50,7 @@ This analysis helps in understanding the chat dynamics, most active periods, and
 
    - **For Unix or macOS:**
       ```
-      python3 -m venv venv
+      python -m venv venv
       source venv/bin/activate
       ``` 
    - **For Windows:**
@@ -61,7 +61,7 @@ This analysis helps in understanding the chat dynamics, most active periods, and
 
 3. **Install Dependencies**
 
-   Ensure you have a `requirements.txt` file in your repository with the following content:
+   - **Ensure you have a `requirements.txt` file in your repository with the following content:**
       ```
       streamlit
       pandas
@@ -72,14 +72,14 @@ This analysis helps in understanding the chat dynamics, most active periods, and
       urlextract
       emoji
       ```
-   Then install the dependencies by running:
+   - **Then install the dependencies by running:**
       ```
       pip install -r requirements.txt
       ```
 
 4. **Run the Application**
 
-   Launch the Streamlit app by executing:
+   - **Launch the Streamlit app by executing:**
       ```
       streamlit run app.py
       ```
@@ -90,14 +90,14 @@ This analysis helps in understanding the chat dynamics, most active periods, and
 
 1. **Build the Docker Image**
 
-   Make sure you have Docker installed. Open your terminal and run:
+   - **Make sure you have Docker installed. Open your terminal and run:**
       ```
       docker build -t whatsapp-chat-analyzer .
       ```
 
 2. **Run the Docker Container**
 
-   Once the image is built, start the container by running:
+   - **Once the image is built, start the container by running:**
       ```
       docker run -p 8501:8501 whatsapp-chat-analyzer
       ```
